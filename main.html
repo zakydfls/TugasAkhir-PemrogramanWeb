@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Go Export</title>
+    <link rel="stylesheet" href="css/main-category.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <h1 class="logo"><span>Go</span> Export</h1>
+        <ul>
+          <li>
+            <img src="images/notification.png" />
+          </li>
+          <li>
+            <img src="images/inbox.png" />
+          </li>
+          <li>
+            <img src="images/video.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle();">
+          <img src="images/profil-picture.png" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profil-picture.png" />
+            <div>
+              <p>Zaky Dafalas</p>
+              <a href="#">See Your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help me to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#">Settings & Privacy</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#">Help & Support</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#">Display & Accessibility</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="profile.html">
+            <img src="./images/profile.png" />
+            Profile
+          </a>
+          <a href="news.html">
+            <img src="https://img.icons8.com/4E5D78/ios11/2x/morning-press.png" />
+            Latest news
+          </a>
+          <a href="category.html">
+            <img src="https://img.icons8.com/4E5D78/androidL/2x/category.png" />
+            Categories
+          </a>
+          <a href="https://www.youtube.com/results?search_query=export+and+import">
+            <img src="https://img.icons8.com/4E5D78/fluent-systems-filled/2x/laptop-play-video.png" />
+            Watch
+          </a>
+          <a href="index.html">
+            <img src="https://img.icons8.com/4E5D78/ios11/2x/exit.png" />
+            Logout
+          </a>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profil-picture.png" />
+            <div>
+              <p>Zaky Dafalas</p>
+              <small>
+                Public
+                <i class="fas fa fa-caret-down"></i>
+              </small>
+            </div>
+          </div>
+          <div class="post-input-container">
+            <textarea rows="3" placeholder="What's on your mind?"></textarea>
+            <div class="add-post-links">
+              <a href="#">
+                <img src="images/live-video.png" />
+                Live Video
+              </a>
+              <a href="#">
+                <img src="images/photo.png" />
+                Photo/Video
+              </a>
+              <a href="#">
+                <img src="images/feeling.png" />
+                Feeling/Activity
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profil-picture.png" />
+              <div>
+                <p>Zaky Dafalas</p>
+                <span>June 21 2021, 13:40</span>
+              </div>
+            </div>
+            <a href="#">
+              <i class="fa fa-ellipsis-v"></i>
+            </a>
+          </div>
+          <p class="post-text">Thousands of professionals & businesses involved in international trade already benefit.</p>
+          <img src="images/post1.jpg" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="images/like-blue.png" />
+                120
+              </div>
+              <div>
+                <img src="images/comments.png" />
+                19
+              </div>
+              <div>
+                <img src="images/share.png" />
+                120
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profil-picture.png" />
+              <i class="fas fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-picture2.png" />
+              <div>
+                <p>Willy Rose</p>
+                <span>June 21 2021, 3:40</span>
+              </div>
+            </div>
+            <a href="#">
+              <i class="fa fa-ellipsis-v"></i>
+            </a>
+          </div>
+          <p class="post-text">Global Air & Sea Freight Shipping & UK Customs Clearance specialists. Independent shipping &customs agency. We shop around for the best price for you.</p>
+          <img src="images/post2.jpg" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="images/like.png" />
+                120
+              </div>
+              <div>
+                <img src="images/comments.png" />
+                19
+              </div>
+              <div>
+                <img src="images/share.png" />
+                120
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profil-picture.png" />
+              <i class="fas fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profil-picture.png" />
+              <div>
+                <p>Javanese Tobacco</p>
+                <span>June 21 2021, 13:40</span>
+              </div>
+            </div>
+            <a href="#">
+              <i class="fa fa-ellipsis-v"></i>
+            </a>
+          </div>
+          <p class="post-text">We provide more than 1.7 billion shipment details from 30 million Importers.</p>
+          <img src="images/post3.jpg" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="images/like.png" />
+                120
+              </div>
+              <div>
+                <img src="images/comments.png" />
+                19
+              </div>
+              <div>
+                <img src="images/share.png" />
+                120
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profil-picture.png" />
+              <i class="fas fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profil-picture.png" />
+              <div>
+                <p>Javanese Tobacco</p>
+                <span>June 21 2021, 13:40</span>
+              </div>
+            </div>
+            <a href="#">
+              <i class="fa fa-ellipsis-v"></i>
+            </a>
+          </div>
+
+          <p class="post-text"></p>
+          <img src="images/post4.jpg" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="images/like.png" />
+                120
+              </div>
+              <div>
+                <img src="images/comments.png" />
+                19
+              </div>
+              <div>
+                <img src="images/share.png" />
+                120
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profil-picture.png" />
+              <i class="fas fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profil-picture.png" />
+              <div>
+                <p>Javanese Tobacco</p>
+                <span>June 21 2021, 13:40</span>
+              </div>
+            </div>
+            <a href="#">
+              <i class="fa fa-ellipsis-v"></i>
+            </a>
+          </div>
+
+          <p class="post-text">Meeting going on</p>
+          <img src="images/post5.jpg" class="post-img" />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="images/like.png" />
+                120
+              </div>
+              <div>
+                <img src="images/comments.png" />
+                19
+              </div>
+              <div>
+                <img src="images/share.png" />
+                120
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profil-picture.png" />
+              <i class="fas fa fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Vanilla Exporting</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>
+              New York
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>June</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>
+              Canada
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Online Meeting</h4>
+          <a href="#">Just Now</a>
+        </div>
+        <img src="images/onlinemeeting.jpg" class="sidebar-ads" alt="meeting" />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/partner9.jpg" />
+          </div>
+          <p>Company Partner</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/partner5.jpg" />
+          </div>
+          <p>Company Partner</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/partner4.png" />
+          </div>
+          <p>Company Partner</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright 2022 - Zaky Dafalas Eka Putra</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

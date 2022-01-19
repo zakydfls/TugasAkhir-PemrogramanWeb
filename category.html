@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main-category.css" />
+    <title>Category</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="main.html"
+          ><h1 class="logo"><span>Go</span> Export</h1></a
+        >
+        <ul>
+          <li>
+            <img src="images/notification.png" />
+          </li>
+          <li>
+            <img src="images/inbox.png" />
+          </li>
+          <li>
+            <img src="images/video.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle();">
+          <img src="images/profil-picture.png" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profil-picture.png" />
+            <div>
+              <p>Zaky Dafalas</p>
+              <a href="#">See Your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help me to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#">Settings & Privacy</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#">Help & Support</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#">Display & Accessibility</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout</a>
+            <img src="images/arrow.png" width="10px" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="category">
+      <table id="table">
+        <tr>
+          <td colspan="2">
+            <div class="header">Categories Looking for</div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4"></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="div1">
+              <a href="all-category-export.html">
+                <img src="./images/ship.png" style="width: 50%" />
+                <p>Export Categories</p>
+                <button class="btn btn1">Exporter</button>
+                <br /><br
+              /></a>
+            </div>
+          </td>
+          <td>
+            <div class="div1">
+              <a href="all-category-bussines.html">
+                <img src="./images/bussines.png" style="width: 37%" />
+                <p>Business Categories</p>
+                <button class="btn btn2">Bussines</button>
+                <br /><br
+              /></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2022 - Zaky Dafalas Eka Putra</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
